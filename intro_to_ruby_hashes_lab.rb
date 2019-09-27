@@ -8,7 +8,7 @@ end
 
 def monopoly_with_second_tier
   monopoly = {
-    :pieces => 4,
+    :pieces,
 	  :railroads => {}
 	}
 end
