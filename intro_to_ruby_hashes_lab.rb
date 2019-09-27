@@ -6,6 +6,7 @@ def base_hash
 end
 
 
+
 def monopoly_with_second_tier
   monopoly = {
   
@@ -14,6 +15,8 @@ def monopoly_with_second_tier
 	  }
 	}
 end
+
+
 
 def monopoly_with_third_tier
   monopoly = {
@@ -35,6 +38,8 @@ def monopoly_with_third_tier
 	}
 end
 
+
+
 def monopoly_with_fourth_tier
   monopoly = {
 	  :railroads => {
@@ -46,7 +51,7 @@ def monopoly_with_fourth_tier
 	      :four_pieces_owned => 200
 	    },
 	    :names => {
-	      :reading_railroad => "$100",
+	      :reading_railroad => {},
 	      :pennsylvania_railroad => {},
 	      :b_and_o_railroad => {},
 	      :shortline_railroad => {}
@@ -54,3 +59,6 @@ def monopoly_with_fourth_tier
 	  }
 	}
 end
+
+
+monopoly_with_fourth_tier[:railroads][:names][:reading_railroad] = "$100"
