@@ -3,7 +3,6 @@ def base_hash
   # keyword "return." Nice and neat.
 	monopoly = {
 	  :players => 4, 
-	  :
 	}
 end
 
